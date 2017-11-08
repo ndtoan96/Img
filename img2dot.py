@@ -3,8 +3,7 @@ from PIL import Image
 import sys
 import os
 
-dirpath= os.path.realpath(__file__)
-
+dirpath= os.path.dirname(sys.argv[0])
 if len(sys.argv)==1:
     path='img.png'
 else:
