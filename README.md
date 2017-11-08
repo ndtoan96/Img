@@ -1,8 +1,8 @@
 # Img2dot
 Turn picture into characters using braille system
 # Requirment
-* python 3
 * numpy
+* pillow
 # Using
 In terminal run:
 
