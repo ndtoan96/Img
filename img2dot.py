@@ -3,7 +3,7 @@ from PIL import Image
 import sys
 import os
 
-dirpath='/media/private/Document/Python/img2dot'
+dirpath= os.path.realpath(__file__)
 
 if len(sys.argv)==1:
     path='img.png'
