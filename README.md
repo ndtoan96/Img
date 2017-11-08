@@ -13,6 +13,8 @@ Recommend using small pitures or do some edits on the picture before turn it int
 Not supporting transparency.
 
 If you ever getting error with location then open img2dot.py and change the dirpath to your folder which img2dot.py is in.
+# Known issues
+Can't work in Windows, it seems like there's some sort of problem with the unicode characters. What a shame.
 # Demo
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
