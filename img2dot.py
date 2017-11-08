@@ -8,7 +8,7 @@ dirpath= os.path.dirname(os.path.realpath(__file__))
 #    path='img.png'
 #else:
 #    path=sys.argv[1]
-imgpath=sys.agrv[1]
+imgpath=sys.argv[1]
 image=Image.open(imgpath)
 image=image.convert('1')
 data=np.asarray(image)
