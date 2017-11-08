@@ -3,7 +3,7 @@ Turn picture into characters using braille system
 # Using
 In terminal run:
 
-`<python path-to-python-file path-to-image>`
+`python <path-to-python-file> <path-to-image>`
 
 Recommend using small pitures or do some edits on the picture before turn it into dots.
 
