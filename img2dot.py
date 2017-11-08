@@ -4,11 +4,12 @@ import sys
 import os
 
 dirpath= os.path.dirname(sys.argv[0])
-if len(sys.argv)==1:
-    path='img.png'
-else:
-    path=sys.argv[1]
-image=Image.open(path)
+#if len(sys.argv)==1:
+#    path='img.png'
+#else:
+#    path=sys.argv[1]
+imgpath=sys.agrv[1]
+image=Image.open(imgpath)
 image=image.convert('1')
 data=np.asarray(image)
 size=data.shape
