@@ -11,7 +11,7 @@ In terminal, run:
 
 or:
 
-`python <path-to-python-file> <path-to-image> [<path-to-text-file]`
+`python <path-to-python-file> <path-to-image> [<path-to-text-file>]`
 
 Recommend using small pitures or do some edits on the picture before turn it into dots.
 
