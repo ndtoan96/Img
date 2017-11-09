@@ -17,7 +17,7 @@ Recommend using small pitures or do some edits on the picture before turn it int
 
 It works fine with color pictures. Not supporting transparency.
 
-If you ever getting error with location then open img2dot.py and change the dirpath to your folder in which img2dot.py is.
+If you ever get an error with location then open img2dot.py and change the dirpath to your folder in which img2dot.py is.
 # Known issues
 If you use this in command run on Windows, you will only get a whole bunch of \xxxx characters, what a shame. But worry not, it's fine if you export them to a file.
 
