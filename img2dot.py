@@ -1,15 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import numpy as np
 from PIL import Image
 import sys
 import os
 
 dirpath= os.path.dirname(os.path.realpath(__file__))
-#if len(sys.argv)==1:
-#    path='img.png'
-#else:
-#    path=sys.argv[1]
-imgpath=sys.argv[1]
-image=Image.open(imgpath)
+
+##if len(sys.argv)==1:
+##    path='img.png'
+##else:
+##    path=sys.argv[1]
+path=sys.argv[1]
+image=Image.open(path)
 image=image.convert('1')
 data=np.asarray(image)
 size=data.shape
@@ -25,7 +29,7 @@ e=np.array([[0,0],[0,1],[0,0]])
 f=np.array([[0,0],[0,0],[0,1]])
 def conv(s):
     return eval(s.replace('','+')[1:-1])
-sample=open(dirpath+'/sample.txt','r').read()
+sample=open(dirpath+'/sample.txt','r',encoding='utf8').read()
 sample=sample.split('\n')[:-1]
 braille=open(dirpath+'/braille.txt','r').read()
 braille=braille.split('\n')[:-1]
@@ -44,5 +48,8 @@ for y in range(0,data.shape[0],3):
         block=data[y:y+3,x:x+2].astype(int)
         img_text += exchange(block)
     img_text += '\n'
-print(img_text)    
-#open('img_text.txt','w').write(img_text)
+    
+print(img_text.encode('utf8'))
+
+if len(sys.argv)==3:
+    open(sys.argv[2],'w',encoding='utf8').write(img_text)
