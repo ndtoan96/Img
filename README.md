@@ -13,7 +13,7 @@ or:
 
 `python <path-to-python-file> <path-to-image> [<path-to-text-file>]`
 
-Recommend using small pitures or doing some edits on the picture before turn it into dots.
+Recommend using small pitures or doing some edits on the picture before turning it into dots.
 
 It works fine with color pictures. Not supporting transparency.
 
